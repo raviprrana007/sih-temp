@@ -1,0 +1,81 @@
+export const currentFaculty = {
+  id: 1,
+  name: 'Dr. Sunita Kulkarni',
+  email: 'sunita.kulkarni@viit.ac.in',
+  phone: '+91 99887 76655',
+  institution: 'Vishwakarma Institute of Information Technology, Pune',
+  department: 'Computer Science and Engineering',
+  designation: 'Associate Professor',
+  experience: '12 years',
+  expertise: ['Machine Learning', 'Data Science', 'Algorithms', 'Python', 'Research Methods'],
+  publications: 18,
+  hIndex: 7,
+  bio: 'Researcher and educator with 12+ years in academia. Passionate about bridging the gap between industry practice and academic curriculum.',
+  linkedin: 'linkedin.com/in/sunita-kulkarni',
+  researchGate: 'researchgate.net/profile/sunita-kulkarni',
+};
+
+export const facultyOpportunities = [
+  {
+    id: 1, company: 'TechNova Solutions', companyLogo: 'TN', companyColor: '#6366f1',
+    type: 'Faculty Internship', title: 'AI Research Collaborator',
+    duration: '2 months', stipend: '₹60,000/month', location: 'Bangalore', mode: 'Hybrid',
+    skills: ['Machine Learning', 'Python', 'Research', 'NLP'],
+    description: 'Join our AI team to collaborate on NLP research projects. Co-author papers and gain industry research experience.',
+    deadline: '2026-09-15', posted: '3 days ago', match: 88,
+  },
+  {
+    id: 2, company: 'InfraCloud', companyLogo: 'IC', companyColor: '#0ea5e9',
+    type: 'Industrial Training', title: 'Cloud Architecture Training Program',
+    duration: '3 weeks', stipend: '₹25,000/week', location: 'Pune', mode: 'On-site',
+    skills: ['AWS', 'Kubernetes', 'System Architecture', 'DevOps'],
+    description: 'Intensive training on modern cloud infrastructure. Gain certification and hands-on experience.',
+    deadline: '2026-09-01', posted: '1 week ago', match: 72,
+  },
+  {
+    id: 3, company: 'DataSense AI', companyLogo: 'DS', companyColor: '#8b5cf6',
+    type: 'FDP', title: 'Advanced ML and AI Faculty Development Program',
+    duration: '1 week', stipend: 'Sponsored + Accommodation', location: 'Hyderabad', mode: 'On-site',
+    skills: ['Deep Learning', 'Computer Vision', 'PyTorch', 'Research'],
+    description: 'World-class FDP on cutting-edge AI. Industry speakers, hands-on sessions, and networking.',
+    deadline: '2026-09-10', posted: '5 days ago', match: 94,
+  },
+  {
+    id: 4, company: 'FinEdge Technologies', companyLogo: 'FE', companyColor: '#10b981',
+    type: 'Consultancy', title: 'FinTech Algorithm Consultant',
+    duration: 'Ongoing', stipend: '₹80,000/month', location: 'Mumbai', mode: 'Remote',
+    skills: ['Algorithms', 'Statistics', 'Financial Modeling', 'Python'],
+    description: 'Provide algorithmic expertise for trading and risk management systems. Part-time consultancy opportunity.',
+    deadline: '2026-09-30', posted: '2 days ago', match: 79,
+  },
+  {
+    id: 5, company: 'Nexus Analytics', companyLogo: 'NA', companyColor: '#06b6d4',
+    type: 'Research Collaboration', title: 'Collaborative Research: Predictive Analytics in Supply Chain',
+    duration: '6 months', stipend: 'Grant Funded', location: 'Bangalore', mode: 'Hybrid',
+    skills: ['Data Science', 'Statistics', 'Research', 'Python', 'Supply Chain'],
+    description: 'Co-investigate predictive analytics applications in supply chain management. Joint publication opportunity.',
+    deadline: '2026-10-01', posted: '1 week ago', match: 85,
+  },
+  {
+    id: 6, company: 'EduPath', companyLogo: 'EP', companyColor: '#f59e0b',
+    type: 'Workshop', title: 'Advanced Python Programming Workshop Facilitator',
+    duration: '2 days', stipend: '₹15,000/day', location: 'Delhi', mode: 'Online',
+    skills: ['Python', 'Teaching', 'Communication', 'Problem Solving'],
+    description: 'Conduct a 2-day advanced Python workshop for software professionals. 200+ attendees expected.',
+    deadline: '2026-09-05', posted: '4 days ago', match: 91,
+  },
+  {
+    id: 7, company: 'LogiChain', companyLogo: 'LC', companyColor: '#7c3aed',
+    type: 'Live Industry Project', title: 'ML Model for Demand Forecasting',
+    duration: '3 months', stipend: 'Project-based', location: 'Hyderabad', mode: 'Remote',
+    skills: ['Machine Learning', 'Time Series', 'Python', 'Statistics'],
+    description: 'Develop ML models for supply chain demand forecasting. Work with real industry data and production deployment.',
+    deadline: '2026-09-20', posted: '6 days ago', match: 87,
+  },
+];
+
+export const facultyApplications = [
+  { id: 1, type: 'FDP', company: 'DataSense AI', role: 'Advanced ML and AI FDP', status: 'selected', appliedDate: '2026-08-05', nextStep: 'Orientation on Sept 12, 2026' },
+  { id: 2, type: 'Workshop', company: 'EduPath', role: 'Python Workshop Facilitator', status: 'under_review', appliedDate: '2026-08-10', nextStep: 'Waiting for confirmation' },
+  { id: 3, type: 'Research Collaboration', company: 'Nexus Analytics', role: 'Supply Chain Research', status: 'interview', appliedDate: '2026-08-01', nextStep: 'Research proposal presentation on Aug 28' },
+];
